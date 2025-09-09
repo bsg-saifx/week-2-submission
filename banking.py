@@ -23,11 +23,11 @@ class BankAccount:
     def balance_state(self):
         print(f"Your Balance: {self.balance}")
 
-
-Acc = BankAccount()
-Acc.deposit(1000)
-Acc.withdraw(500)
-Acc.withdraw(600)
-Acc.deposit(1000)
-Acc.balance_state()
-Acc.withdraw(800)
+if __name__=="__main__":
+    Acc = BankAccount()
+    Acc.deposit(1000)
+    Acc.withdraw(500)
+    Acc.withdraw(600)
+    Acc.deposit(1000)
+    Acc.balance_state()
+    Acc.withdraw(800)
