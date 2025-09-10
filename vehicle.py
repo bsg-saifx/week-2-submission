@@ -4,6 +4,8 @@ class Vehicle:
         self.model=model
     def details(self):
         print(f"Brand : {self.brand}\nModel: {self.model}")
+    def price(self):
+        pass
 
 class Car(Vehicle):
     def price(self,price):
